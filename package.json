@@ -1,0 +1,24 @@
+{
+  "name": "api-template",
+  "version": "1.0.0",
+  "description": "Recuerden que deben de ejecutar ```npm install``` para reconstruir los módulos de Node.",
+  "main": "index.js",
+  "env": {
+    "TZ": "America/Argentina/Buenos_Aires"
+  },
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33"
+  }
+}
